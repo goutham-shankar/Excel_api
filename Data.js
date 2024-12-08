@@ -100,6 +100,129 @@ let functions = [
     { "id": 98, name: "XLOOKUP + FILTER + IFERROR", usecase: "Performs a lookup with dynamic filtering and handles errors for unavailable values (Excel 365 and 2019)." },
     { "id": 99, name: "COUNTIFS + LEFT + FIND", usecase: "Counts values in a range where the text starts with a specific substring or pattern." },
     { "id": 100, name: "IF + MID + LEN + SEARCH", usecase: "Extracts and processes substrings based on conditional logic." }
+    [
+  {
+    "id": 101,
+    "name": "VLOOKUP",
+    "usecase": "Search for a value in the first column of a table and return a value in the same row from another column.",
+    "syntax": "VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])"
+  },
+  {
+    "id": 102,
+    "name": "INDEX",
+    "usecase": "Return the value of a cell in a specific row and column of a range.",
+    "syntax": "INDEX(array, row_num, [column_num])"
+  },
+  {
+    "id": 103,
+    "name": "MATCH",
+    "usecase": "Return the position of a lookup value in a range.",
+    "syntax": "MATCH(lookup_value, lookup_array, [match_type])"
+  },
+  {
+    "id": 104,
+    "name": "IFERROR",
+    "usecase": "Return a specified value if a formula evaluates to an error, otherwise return the result of the formula.",
+    "syntax": "IFERROR(value, value_if_error)"
+  },
+  {
+    "id": 105,
+    "name": "SUMIFS",
+    "usecase": "Sum the values in a range that meet multiple criteria.",
+    "syntax": "SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)"
+  },
+  {
+    "id": 106,
+    "name": "COUNTIFS",
+    "usecase": "Count the number of cells that meet multiple criteria.",
+    "syntax": "COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2], ...)"
+  },
+  {
+    "id": 107,
+    "name": "CONCATENATE",
+    "usecase": "Join two or more text strings together.",
+    "syntax": "CONCATENATE(text1, [text2], ...)"
+  },
+  {
+    "id": 108,
+    "name": "TEXT",
+    "usecase": "Format a number or date as text in a specified format.",
+    "syntax": "TEXT(value, format_text)"
+  },
+  {
+    "id": 109,
+    "name": "SUMPRODUCT",
+    "usecase": "Multiply corresponding elements in given arrays and return the sum of those products.",
+    "syntax": "SUMPRODUCT(array1, [array2], [array3], ...)"
+  },
+  {
+    "id": 110,
+    "name": "ARRAYFORMULA",
+    "usecase": "Perform a calculation over a range of cells, and return results in the form of an array or a range of values.",
+    "syntax": "ARRAYFORMULA(array_formula)"
+  },
+  {
+    "id": 111,
+    "name": "LEFT",
+    "usecase": "Extract the leftmost characters from a text string.",
+    "syntax": "LEFT(text, [num_chars])"
+  },
+  {
+    "id": 112,
+    "name": "RIGHT",
+    "usecase": "Extract the rightmost characters from a text string.",
+    "syntax": "RIGHT(text, [num_chars])"
+  },
+  {
+    "id": 113,
+    "name": "MID",
+    "usecase": "Extract characters from the middle of a text string, given a starting position and length.",
+    "syntax": "MID(text, start_num, num_chars)"
+  },
+  {
+    "id": 114,
+    "name": "TEXTJOIN",
+    "usecase": "Join multiple text strings with a delimiter between each.",
+    "syntax": "TEXTJOIN(delimiter, ignore_empty, text1, [text2], ...)"
+  },
+  {
+    "id": 115,
+    "name": "TODAY",
+    "usecase": "Return the current date.",
+    "syntax": "TODAY()"
+  },
+  {
+    "id": 116,
+    "name": "NOW",
+    "usecase": "Return the current date and time.",
+    "syntax": "NOW()"
+  },
+  {
+    "id": 117,
+    "name": "YEAR",
+    "usecase": "Extract the year from a date.",
+    "syntax": "YEAR(serial_number)"
+  },
+  {
+    "id": 118,
+    "name": "MONTH",
+    "usecase": "Extract the month from a date.",
+    "syntax": "MONTH(serial_number)"
+  },
+  {
+    "id": 119,
+    "name": "DAY",
+    "usecase": "Extract the day from a date.",
+    "syntax": "DAY(serial_number)"
+  },
+  {
+    "id": 120,
+    "name": "DATEDIF",
+    "usecase": "Calculate the difference between two dates in years, months, or days.",
+    "syntax": "DATEDIF(start_date, end_date, unit)"
+  }
+]
+
 ]
 
 
