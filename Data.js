@@ -105,115 +105,115 @@ let functions = [
 {
   id: 101,
   name: "VLOOKUP",
-  idusecase: "Search for a value in the first column of a table and return a value in the same row from another column.",
+  usecase: "Search for a value in the first column of a table and return a value in the same row from another column.",
   syntax: "VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])"
 },
 {
   id: 102,
   name: "INDEX",
-  idusecase: "Return the value of a cell in a specific row and column of a range.",
+  usecase: "Return the value of a cell in a specific row and column of a range.",
   syntax: "INDEX(array, row_num, [column_num])"
 },
 {
   id: 103,
   name: "MATCH",
-  idusecase: "Return the position of a lookup value in a range.",
+  usecase: "Return the position of a lookup value in a range.",
   syntax: "MATCH(lookup_value, lookup_array, [match_type])"
 },
 {
   id: 104,
   name: "IFERROR",
-  idusecase: "Return a specified value if a formula evaluates to an error, otherwise return the result of the formula.",
+  usecase: "Return a specified value if a formula evaluates to an error, otherwise return the result of the formula.",
   syntax: "IFERROR(value, value_if_error)"
 },
 {
   id: 105,
   name: "SUMIFS",
-  idusecase: "Sum the values in a range that meet multiple criteria.",
+  usecase: "Sum the values in a range that meet multiple criteria.",
   syntax: "SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)"
 },
 {
   id: 106,
   name: "COUNTIFS",
-  idusecase: "Count the number of cells that meet multiple criteria.",
+  usecase: "Count the number of cells that meet multiple criteria.",
   syntax: "COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2], ...)"
 },
 {
   id: 107,
   name: "CONCATENATE",
-  idusecase: "Join two or more text strings together.",
+  usecase: "Join two or more text strings together.",
   syntax: "CONCATENATE(text1, [text2], ...)"
 },
 {
   id: 108,
   name: "TEXT",
-  idusecase: "Format a number or date as text in a specified format.",
+  usecase: "Format a number or date as text in a specified format.",
   syntax: "TEXT(value, format_text)"
 },
 {
   id: 109,
   name: "SUMPRODUCT",
-  idusecase: "Multiply corresponding elements in given arrays and return the sum of those products.",
+  usecase: "Multiply corresponding elements in given arrays and return the sum of those products.",
   syntax: "SUMPRODUCT(array1, [array2], [array3], ...)"
 },
 {
   id: 110,
   name: "ARRAYFORMULA",
-  idusecase: "Perform a calculation over a range of cells, and return results in the form of an array or a range of values.",
+  usecase: "Perform a calculation over a range of cells, and return results in the form of an array or a range of values.",
   syntax: "ARRAYFORMULA(array_formula)"
 },
 {
   id: 111,
   name: "LEFT",
-  idusecase: "Extract the leftmost characters from a text string.",
+  usecase: "Extract the leftmost characters from a text string.",
   syntax: "LEFT(text, [num_chars])"
 },
 {
   id: 112,
   name: "RIGHT",
-  idusecase: "Extract the rightmost characters from a text string.",
+  usecase: "Extract the rightmost characters from a text string.",
   syntax: "RIGHT(text, [num_chars])"
 },
 {
   id: 113,
   name: "MID",
-  idusecase: "Extract characters from the middle of a text string, given a starting position and length.",
+  usecase: "Extract characters from the middle of a text string, given a starting position and length.",
   syntax: "MID(text, start_num, num_chars)"
 },
 {
   id: 114,
   name: "TEXTJOIN",
-  idusecase: "Join multiple text strings with a delimiter between each.",
+  usecase: "Join multiple text strings with a delimiter between each.",
   syntax: "TEXTJOIN(delimiter, ignore_empty, text1, [text2], ...)"
 },
 {
   id: 115,
   name: "TODAY",
-  idusecase: "Return the current date.",
+  usecase: "Return the current date.",
   syntax: "TODAY()"
 },
 {
   id: 116,
   name: "NOW",
-  idusecase: "Return the current date and time.",
+  usecase: "Return the current date and time.",
   syntax: "NOW()"
 },
 {
   id: 117,
   name: "YEAR",
-  idusecase: "Extract the year from a date.",
+  usecase: "Extract the year from a date.",
   syntax: "YEAR(serial_number)"
 },
 {
   id: 118,
   name: "MONTH",
-  idusecase: "Extract the month from a date.",
+  usecase: "Extract the month from a date.",
   syntax: "MONTH(serial_number)"
 },
 {
   id: 119,
   name: "DAY",
-  idusecase: "Extract the day from a date.",
+  usecase: "Extract the day from a date.",
   syntax: "DAY(serial_number)"
 },
 {
